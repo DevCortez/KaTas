@@ -1,2 +1,2 @@
 # KaTas
-Katana zero TAS scripts
+Repository for KaTas scripts for the community
