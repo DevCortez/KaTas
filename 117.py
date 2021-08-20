@@ -1,4 +1,5 @@
 #Bunker 2-1 8s made by Bar0ti https://www.youtube.com/watch?v=IY00lhBbD5Q
+#Guaranteed to be done faster
 
 from katas import Controller, Scripter
     
