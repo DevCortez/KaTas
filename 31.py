@@ -1,5 +1,5 @@
 # Prison 1 - 12.17 made by kc0rtez https://streamable.com/ljdv29
-
+# Unlikely to be improved unless scuffed rolls are explored 
 from katas import Scripter, Controller
 
 script = Scripter()
