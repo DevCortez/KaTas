@@ -1,4 +1,5 @@
 # Bunker 1-9 8.77 made by Bar0ti https://www.youtube.com/watch?v=o9p3WielzR0
+# Likely chance of improving
 
 from katas import Controller, Scripter
 
