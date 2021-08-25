@@ -1,4 +1,4 @@
-5# Bunker 1-2 7.38 made by Bar0ti https://youtu.be/lvmWrBAX0TU
+# Bunker 1-2 7.38 made by Bar0ti https://youtu.be/lvmWrBAX0TU
 # High chance of improving it, I haven't tested out all of the combinations of elevator entry
 #also the moment when I throw the bottle isn't optimized, it's very likely delaying the earliest possible
 #moment at which I can intereact with the button
