@@ -1,5 +1,5 @@
-# Bunker 1-9 8.77 made by Bar0ti https://www.youtube.com/watch?v=o9p3WielzR0
-# Likely chance of improving
+# Bunker 1-9 8.00 made by Bar0ti https://youtu.be/VIxBuMmtHc8
+# Very likely chance of improving
 
 from katas import Controller, Scripter
 
@@ -11,60 +11,72 @@ script.Roll()
 script.Wait(22)
 script.Roll()
 script.Wait(18)
-#ricky slash
 script.Button(Controller.X, duration=0)
 script.Wait(4)
 script.Button(Controller.down, duration=0)
 script.Roll()
 script.Wait(12)
-#door slash
 script.Button(Controller.X, duration=0)
 script.Wait(10)
 script.Button(Controller.down, duration=2)
 script.Wait(1)
 script.Roll()
-script.Wait(15)
-#dropping down slash
+script.Wait(11)
+#this jump to the 2nd ledge is likely possible to optimize further
+#since you can jump onto the ledge in many ways that I haven't tested
+script.MoveLeftStick(210)
+script.Button(Controller.X, duration=0)
+script.Wait(12)
+script.Button(Controller.down, duration=2)
+script.Wait(1)
+script.Roll()
+script.Wait(9)
+script.Button(Controller.left, duration=15)
+script.Button(Controller.A, duration=15)
+script.Wait(16)
+script.MoveLeftStick(260)
+script.Button(Controller.X, duration=0)
+script.Wait(2)
+script.Button(Controller.down, duration=2)
+script.Wait(1)
+script.Roll()
+script.Wait(22)
 script.MoveLeftStick(220)
 script.Button(Controller.X, duration=0)
 script.Wait(1)
-script.Button(Controller.down, duration=38)
-script.Button(Controller.left, duration=16)
-script.Wait(14)
-script.Roll()
-script.Wait(18)
-#double gunner slash
-script.MoveLeftStick(180)
-script.Button(Controller.X, duration=0)
+script.Button(Controller.down, duration=2)
 script.Wait(1)
-script.Button(Controller.right, duration=10)
-script.Wait(5)
 script.Roll()
-script.Wait(14)
-#deflect to gain height
-script.MoveLeftStick(90)
-script.Button(Controller.X, duration=0)
-script.Wait(8)
-script.Button(Controller.A, duration=20)
-script.Wait(8)
-#last gunner slash onto the platform
-script.MoveLeftStick(145)
-script.Button(Controller.X, duration=0)
-script.Wait(6)
-script.Button(Controller.down, duration=66)
+script.Wait(20)
+script.MoveLeftStick(340)
+script.Button(Controller.B, duration=0)
+script.Wait(2)
+script.Button(Controller.down, duration=2)
+script.Wait(1)
 script.Roll()
-script.Wait(22)
-script.Button(Controller.down, duration=1)
-script.Roll()
-script.Wait(22)
+script.Wait(0)
+script.Button(Controller.left, duration=2)
+script.MoveLeftStick(335)
+script.Button(Controller.B, duration=0)
+script.Wait(3)
+#this entry to the elevator is unoptimized, it's likely that you can delay the
+#slash for a few frames and then roll on the first frame that it lets you
+#however the moment I fiddle with these two variables, I no longer am able
+#to open the elevator 6 frames after rolling, but only after 7
+#to change those two variables you will need to fiddle with the slash angle
+#it should change your position in small enough increments to allow you to
+#activate the elevator only after 6 frames
 script.MoveLeftStick(180)
 script.Button(Controller.X, duration=0)
-script.Wait(14)
-script.Button(Controller.down, duration=1)
+script.Wait(16)
+script.Button(Controller.down, duration=2)
+script.Wait(1)
 script.Roll()
-script.Wait(15)
+script.Wait(6)
 script.Button(Controller.Y, duration=0)
-script.Wait(7)
+script.Wait(15)
+script.Button(Controller.down, duration=2)
+script.Wait(1)
 script.Roll()
-script.Wait(7)
 script.save()
+
