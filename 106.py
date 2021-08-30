@@ -60,7 +60,4 @@ script.Wait(1)
 script.Roll()
 script.Wait(5)
 script.Button(Controller.X, duration=1)
-
-
-
 script.save()
