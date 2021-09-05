@@ -1,4 +1,5 @@
 # Bunker 2-1 8.72 made by Bar0ti https://youtu.be/eH7b9b1jmCs
+# Guaranteed to be done faster
 # Holy shit, 10+ hours spent on this and it's still nowhere being optimized
 # The beginning at least looks aight until the touchdown on the 7th floor,
 # after that it's optimization fiesta
