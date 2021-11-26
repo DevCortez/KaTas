@@ -1,4 +1,4 @@
-# Bunker 2-1 8.58 made by Bar0ti https://www.youtube.com/watch?v=7dzzppl2xgg
+# Bunker 2-1 7.58 made by Bar0ti https://www.youtube.com/watch?v=7dzzppl2xgg
 # There's still a high chance of improving the TAS, though expect a ton of time on doing so
 # The TAS looks solid until the 5th floor, I wouldn't expect that you'd be able to easily shave a bunch of
 # time in there. However the story changes starting from the 5th floor, there's still a ton of possibilities at
