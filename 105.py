@@ -1,4 +1,4 @@
-# Bunker 1-1 5.65 made by Bar0ti https://youtu.be/CUBRA5YEpjQ
+# Bunker 1-1 6.23 I am adding 580ms to the final timer because the TAS skips the initial animation of the room made by Bar0ti https://youtu.be/CUBRA5YEpjQ
 # Very likely to be improved upon
 
 from katas import Controller, Scripter
