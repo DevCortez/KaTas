@@ -7,6 +7,7 @@
 # -try to deflect only one bullet from the gunner and use the statue and molotov to kill the remaining two enemies
 # -improve the existing double deflect strat, as it very possible to improve it
 # -smoke teleporter shenanigans
+# -if all fails you can try throwing the molotov over/under the 2nd bullet so you save a minimal amount of time
 
 from katas import Controller, Scripter
 
