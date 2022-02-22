@@ -1,4 +1,4 @@
-# Bunker 2-1 23.37s made by snek pliskin (https://youtu.be/ue-e1zafpEo) and 23.42s made by Bar0ti (https://youtu.be/G08T01H6kCc)
+# HH-2 23.37s made by snek pliskin (https://youtu.be/ue-e1zafpEo) and 23.42s made by Bar0ti (https://youtu.be/G08T01H6kCc)
 
 # change the value of STRAT to use other variations of this room
 # STRAT = 1 - 23.37s - cannot be improved without substantial changes to the strat(snek pliskin)
