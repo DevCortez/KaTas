@@ -1,4 +1,5 @@
 # Bunker 2-2 7.82 made by Bar0ti https://youtu.be/my9mt2fhxJo
+# Requires a mod that changes the starting position of zero after a quick restart
 # Guaranteed to be improvable
 # Take a path by going under the terry
 
