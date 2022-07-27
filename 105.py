@@ -1,4 +1,4 @@
-# Bunker 1-1 5.55 + 0.57 made by Bar0ti https://youtu.be/H-hkGc4_E8o
+# Bunker 1-1 5.55 + 0.55 made by Bar0ti https://youtu.be/H-hkGc4_E8o
 # Maybe it's possible to improve
 
 from katas import Controller, Scripter
