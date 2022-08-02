@@ -1,4 +1,5 @@
 # Club-6 6.62 made by Bar0ti https://youtu.be/sdz5BdOGFUs
+# Accidently done without the mod that switches the starting position from restart
 # Most likely possible to improve
 # Find better ways to get up the floors
 # Maybe find a way to kill the clump of rickies in 3 slashes not 2 
