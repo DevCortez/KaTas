@@ -1,4 +1,4 @@
-# Factory-1 11.18 made by Bar0ti https://youtu.be/P24eVKzoVso# Guaranteed to be improved
+# Factory-2 11.18 made by Bar0ti https://youtu.be/P24eVKzoVso
 # Probably improvable
 # Find other ways to go up the level
 from katas import Controller, Scripter
