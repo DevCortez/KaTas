@@ -1,4 +1,4 @@
-# Mansion-5 5.57 + 1.17 made by Bar0ti https://youtu.be/phUJh_9oQuo
+# Mansion-5 5.57 + 1.17 made by Bar0ti https://youtu.be/DrDxfyJH_I0
 # Guaranteed to be improvable
 # Shorten each flamethrower shot
 # Check the timing of slashing the doors
