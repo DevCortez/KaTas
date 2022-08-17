@@ -1,4 +1,4 @@
-# Factory-4 5.28 made by Bar0ti https://youtu.be/rKntlbgGYGo
+# Factory-4 5.28 made by Bar0ti https://youtu.be/OlK5oj9UB4k
 # Most likely improvable
 
 
@@ -6,7 +6,7 @@ from katas import Controller, Scripter
 script = Scripter()
 
 script.Button(Controller.left_shoulder, 0)
-script.Wait(70)
+script.Wait(2)
 script.Button(Controller.down, duration=1)
 script.Wait(1)
 script.Roll()
@@ -71,11 +71,10 @@ script.Button(Controller.down, duration=1)
 script.Wait(1)
 script.Roll()
 script.Wait(6)
-script.Button(Controller.left_thumb, duration=0)
-script.Wait(5)
+script.Button(Controller.left_thumb, duration=2)
+script.Wait(4)
 script.Button(Controller.down, duration=1)
 script.Wait(1)
-script.Button(Controller.left_thumb, duration=0)
 script.Roll()
 script.Wait(11)
 script.MoveLeftStick(0)
