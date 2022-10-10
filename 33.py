@@ -6,7 +6,35 @@
 from katas import Controller, Scripter
 script = Scripter()
 
-#script.Button(Controller.left_shoulder, 0)
+
+#Prison-1 script
+script.Button(Controller.left_shoulder, 0)
+script.Wait(2)
+script.Button(Controller.down, duration=1)
+script.Wait(1)
+script.Roll()
+script.Wait(10)
+for k in range (7):
+    script.MoveLeftStick(0.6)
+    script.Button(Controller.X, duration=0)
+    script.Wait(11)
+    script.Button(Controller.down, duration=1)
+    script.Wait(1)
+    script.Roll()
+    script.Wait(8)
+    script.Button(Controller.left_thumb, duration=0)
+    script.Wait(3)
+    script.Button(Controller.down, duration=0)
+    script.Wait(1)
+    script.Roll()
+    script.Wait(10)
+script.MoveLeftStick(0)
+script.Button(Controller.X, duration=0)
+
+
+script.Wait(33)
+
+#Prison-2 script
 script.Wait(69)
 script.Button(Controller.down, duration=1)
 script.Wait(1)

@@ -1,52 +1,10 @@
-# Studio-4 5.4 made by Bar0ti https://youtu.be/ko1SbSDhd0g
-# Probably improvable
+# Studio-V 1st part 10.17 made by Bar0ti https://youtu.be/R3pa2VXwAco
+# Requires starting from studio-4
 
 from katas import Controller, Scripter
 script = Scripter()
 
-
-#Studio-3 script
 script.Button(Controller.left_shoulder, 0)
-script.Wait(37)
-script.Button(Controller.down, duration=1)
-script.Wait(1)
-script.Roll()
-script.Wait(8)
-script.Button(Controller.right, duration=6)
-script.Button(Controller.A, duration=0)
-script.Button(Controller.left_thumb, duration=0)
-script.Wait(2)
-script.Button(Controller.down, duration=0)
-script.Wait(2)
-script.Button(Controller.down, duration=1)
-script.Wait(1)
-script.Roll()
-script.Wait(9)
-script.Button(Controller.Y, duration=0)
-script.Wait(76)
-script.Button(Controller.down, duration=1)
-script.Wait(1)
-script.Roll()
-script.Wait(10)
-script.MoveLeftStick(0.8)
-script.Button(Controller.X, duration=0)
-script.Wait(11)
-script.Button(Controller.down, duration=1)
-script.Wait(1)
-script.Roll()
-script.Wait(10)
-script.Button(Controller.left_thumb, duration=0)
-script.Wait(3)
-script.Button(Controller.down, duration=1)
-script.Wait(1)
-script.Roll()
-script.Wait(11)
-script.MoveLeftStick(0)
-script.Button(Controller.X, duration=0)
-
-
-script.Wait(33)
-
 
 #Studio-4 script
 script.Wait(70)
@@ -152,6 +110,63 @@ script.Button(Controller.down, duration=1)
 script.Button(Controller.right, duration=1)
 script.Wait(1)
 script.Roll()
+
+#Studio-V script
+script.Wait(162)
+script.Button(Controller.A, duration=0)
+script.Wait(30)
+script.Button(Controller.A, duration=0)
+script.Wait(56)
+script.Button(Controller.A, duration=0)
+script.Wait(30)
+script.Button(Controller.A, duration=0)
+script.Wait(104)
+script.Button(Controller.A, duration=0)
+script.Wait(30)
+script.Button(Controller.A, duration=0)
+script.Wait(145)
+script.Button(Controller.A, duration=0)
+script.Wait(30)
+script.Button(Controller.A, duration=0)
+script.Wait(62)
+
+
+#Studio-V fight script
+script.Button(Controller.left_shoulder, )
+script.Wait(2)
+script.Button(Controller.down, duration=1)
+script.Wait(1)
+script.Roll()
+script.Wait(7)
+script.MoveLeftStick(0)
+script.Button(Controller.X, duration=0)
+script.Wait(20)
+script.MoveLeftStick(250)
+script.Button(Controller.X, duration=0)
+script.Wait(9)
+script.Button(Controller.down, duration=1)
+script.Wait(1)
+script.Roll()
+script.Wait(22)
+script.Button(Controller.left, duration=10)
+script.Wait(45)
+script.MoveLeftStick(250)
+script.Button(Controller.X, duration=0)
+script.Wait(20)
+script.Button(Controller.A, duration=3)
+script.Button(Controller.left, duration=60)
+script.Wait(42)
+script.MoveLeftStick(260)
+script.Button(Controller.X, duration=0)
+script.Wait(5)
+script.Button(Controller.down, duration=20)
+script.Wait(20)
+script.Button(Controller.A, duration=4)
+script.Button(Controller.left, duration=60)
+script.Wait(39)
+script.MoveLeftStick(260)
+script.Button(Controller.X, duration=0)
+
 script.save()
 
 #slow-mo

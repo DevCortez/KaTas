@@ -5,7 +5,57 @@
 from katas import Controller, Scripter
 script = Scripter()
 
+
+
+#Studio-2 script
 script.Button(Controller.left_shoulder, 0)
+script.Wait(2)
+script.Button(Controller.down, duration=1)
+script.Wait(1)
+script.Roll()
+script.Wait(9)
+script.MoveLeftStick(0)
+script.Button(Controller.X, duration=0)
+script.Wait(11)
+script.Button(Controller.down, duration=1)
+script.Wait(1)
+script.Roll()
+script.Wait(9)
+script.MoveLeftStick(10)
+script.Button(Controller.X, duration=0)
+script.Wait(4)
+script.Button(Controller.Y, duration=0)
+script.Wait(18)
+script.Button(Controller.left, duration=20)
+script.Button(Controller.A, duration=16)
+script.Wait(20)
+script.Button(Controller.A, duration=0)
+script.Wait(10)
+script.Button(Controller.down, duration=9)
+script.Wait(11)
+script.Button(Controller.down, duration=1)
+script.Wait(1)
+script.Roll()
+script.Wait(12)
+script.Button(Controller.right, duration=20)
+script.Button(Controller.A, duration=16)
+script.Wait(19)
+script.Button(Controller.A, duration=0)
+script.Wait(12)
+script.Button(Controller.down, duration=9)
+script.Wait(23)
+script.Button(Controller.Y, duration=0)
+script.Wait(35)
+script.Button(Controller.up, duration=0)
+script.Wait(1)
+script.Button(Controller.A, duration=0)
+
+
+
+script.Wait(150)
+
+
+#Space-1 script
 script.Wait(61)
 script.Button(Controller.down, duration=1)
 script.Wait(1)
