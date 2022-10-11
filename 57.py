@@ -5,7 +5,40 @@
 from katas import Controller, Scripter
 script = Scripter()
 
+
+#Doom-3 script
 script.Button(Controller.left_shoulder, 0)
+script.Wait(70)
+script.Button(Controller.down, duration=1)
+script.Wait(1)
+script.Roll()
+script.Wait(7)
+script.MoveLeftStick(354.2403)
+script.Button(Controller.X, duration=0)
+script.Wait(11)
+script.Button(Controller.down, duration=1)
+script.Wait(1)
+script.Roll()
+script.Wait(6)
+script.Button(Controller.right, duration=18)
+script.Button(Controller.A, duration=0)
+script.Button(Controller.left_thumb, duration=0)
+script.Wait(2)
+script.Button(Controller.down, duration=16)
+script.Wait(9)
+script.Button(Controller.Y, duration=0)
+script.Wait(3)
+script.Button(Controller.Y, duration=0)
+script.Wait(35)
+script.Button(Controller.up, duration=0)
+script.Wait(1)
+script.Button(Controller.A, duration=0)
+
+
+script.Wait(150)
+
+
+#Studio-3 script
 script.Wait(37)
 script.Button(Controller.down, duration=1)
 script.Wait(1)

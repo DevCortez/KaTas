@@ -5,7 +5,13 @@
 from katas import Controller, Scripter
 script = Scripter()
 
-script.Button(Controller.left_shoulder, 0)
+#To start playing this script start in mansion-6 and yourself on the rightmost wall and fall to the ground
+
+
+script.Button(Controller.right, duration=60)
+script.Wait(64)
+
+
 script.Wait(70)
 script.Button(Controller.down, duration=1)
 script.Wait(1)
